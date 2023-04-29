@@ -1,0 +1,166 @@
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 10px;
+    background-color: rgb(240, 240, 240);
+    width: 100%
+}
+
+header {
+    margin:30px 60px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    height: 70px;
+   
+}
+
+.logo a {
+    margin-left: 60px;
+    font-size: 28px;
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(197, 197, 0);
+    margin-right: 100%;
+ 
+}
+
+.nav-bar ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    margin-right: 300px;
+}
+
+.nav-bar ul li {
+    margin-right: 20px;
+}
+
+.nav-bar ul li a {
+    text-decoration: none;
+    color:rgb(0, 0, 0);
+    font-size: 18px;
+  
+}
+
+.nav-bar ul li a:hover {
+    color: orangered;
+    transition: 0.3;
+    cursor: pointer;
+}
+
+
+.nav2 {
+    display: flex;
+    align-items: center;
+    margin-right: 50px;
+
+}
+
+
+.nav2 a {
+    font-size: 18px;
+    text-decoration: none;
+    margin-right: 20px;
+    color: black;
+}
+
+.nav2 a:hover {
+    color: orangered;
+    transition: 0.3s;
+    cursor: pointer;
+    
+}
+
+.img1{
+    position: absolute;
+    height: 500px;
+    right: 80px;
+    top: 100px;
+}
+
+h1{
+  font-size: 90px;
+  right: 750px;
+  top: 170px;
+  position: absolute;
+  font-weight: 10;
+}
+
+.more{
+        right: 79.7rem;
+        top: 480px;
+        position: absolute;     
+}
+
+.more:hover{
+    color: orangered;
+    transition: 0.3s;
+}
+
+.basliqlar{
+    display: flex; 
+    position: absolute;
+    top: 600px;
+    right: 100px;
+    background-color: white;
+  }
+  
+  .basliq {
+    width: 283px;
+    margin: 1px;
+    padding: 20px; 
+    border: 1px solid #ccc; 
+    text-align:center; 
+    
+  }
+  
+
+  
+  
+  .basliq h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px; 
+    font-weight: 20;
+  }
+  
+
+  
+  .products {
+    display: flex; 
+    position: absolute;
+    top: 690px;
+    right: 100px;
+    background-color: white;
+    height: 440px;
+  }
+  
+  .product{
+    width: 283px;
+    margin: 1px;
+    padding: 20px; 
+    border: 1px solid #ccc; 
+    text-align: left; 
+  }
+  
+  .product img {
+    width: 100%; 
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  .product h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px; 
+  }
+  
+  .product p {
+    font-size: 1rem;
+    color: #888; 
+  }
+  
